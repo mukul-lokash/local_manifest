@@ -5,11 +5,9 @@
           fetch="https://github.com/AbrarNoob" />
 
       <!-- Trees -->
-      <project path="device/xiaomi/lavender" name="android_device_xiaomi_lavender" remote="AbrarNoob" revision="gg" />
+      <project path="device/xiaomi/lavender" name="android_device_xiaomi_lavender" remote="AbrarNoob" revision="ggg" />
       <project path="vendor/xiaomi/lavender" name="android_vendor_xiaomi_lavender" remote="AbrarNoob" revision="eleven" />
       <project path="kernel/xiaomi/lavender" name="nexus_kernel_xiaomi_lavender" remote="AbrarNoob" revision="eas-main" />
   
-      <!-- Clang -->
-      <project path="prebuilts/clang/host/linux-x86/clang-gengkapak" name="GengKapak-clang" remote="AbrarNoob" revision="13" clone-depth="1" />
-
+      
 </manifest>
