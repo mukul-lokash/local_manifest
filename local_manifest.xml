@@ -5,12 +5,11 @@
           fetch="https://github.com/ImPrashantt" />
   <remote name="projects-nexus"
           fetch="https://github.com/projects-nexus" /> 
-  <remote name="inferno964"
-          fetch="https://github.com/inferno964" />
   
   <project path="device/xiaomi/lavender" name="device_xiaomi_lavender" remote="ImPrashantt" revision="12-test"/>
   <project path="vendor/xiaomi/lavender" name="vendor_xiaomi_lavender" remote="ImPrashantt" revision="12-test" />
   <project path="kernel/xiaomi/lavender" name="android_kernel_xiaomi_lavender-LTO" remote="projects-nexus" revision="qti" />      
-  <project path="device/xiaomi/extras" name="android_device_xiaomi_extras" remote="inferno964" revision="sc" />
+  <project path="device/xiaomi/extras" name="android_device_xiaomi_extras" remote="ImPrashantt" revision="sc" />
+  <project path="vendor/pixel-additional" name="Additional-CarrierSettings" remote="ImPrashantt" revision="twelve" />  
 
 </manifest>  
