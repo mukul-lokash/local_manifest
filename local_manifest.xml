@@ -9,7 +9,7 @@
           fetch="https://gitlab.com/ImPrashantt" />           
   
   <project path="device/xiaomi/lavender" name="device_xiaomi_lavender-1" remote="ImPrashantt" revision="12-test"/> 
-  <project path="vendor/xiaomi/lavender" name="vendor_xiaomi_lavender" remote="ImPrashantt" revision="test" />
+  <project path="vendor/xiaomi/lavender" name="vendor_xiaomi_lavender" remote="ImPrashantt" revision="twelve" />
   <project path="kernel/xiaomi/lavender" name="android_kernel_xiaomi_lavender-LTO" remote="projects-nexus" revision="qti" /> 
   <project path="vendor/gapps" name="android_vendor_gapps" remote="Prash" revision="12.1" />
   <project path="vendor/lawnchair" name="vendor_lawnchair" remote="ImPrashantt" revision="A12" />  
