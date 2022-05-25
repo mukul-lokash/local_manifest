@@ -10,7 +10,7 @@
   <remote name="ImSpiDy"
           fetch="https://gitlab.com/ImSpiDy" />                 
   
-  <project path="device/xiaomi/lavender" name="device_xiaomi_lavender-1" remote="ImPrashantt" revision="12-test"/> 
+  <project path="device/xiaomi/lavender" name="device_xiaomi_lavender-1" remote="ImPrashantt" revision="12-test" /> 
   <project path="vendor/xiaomi/lavender" name="vendor_xiaomi_lavender" remote="ImPrashantt" revision="twelve" />
   <project path="kernel/xiaomi/lavender" name="kernel_xiaomi_lavender" remote="stormbreaker-project" revision="qti-oldcam-eas" /> 
   <project path="vendor/gapps" name="android_vendor_gapps" remote="Prash" revision="12.1" />
