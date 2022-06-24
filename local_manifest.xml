@@ -17,5 +17,11 @@
   <project path="kernel/xiaomi/lavender" name="kernel_xiaomi_lavender" remote="stormbreaker-project" revision="qti-oldcam-eas" />
   
   <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="kdrag0n" revision="master" />
-    
+  
+      <!-- Replacements -->
+
+  <remove-project name="android_bionic" />  
+  
+  <project path="bionic" name="bionic" remote="ImPrashantt" revision="crdroid" />   
+  
 </manifest>  
