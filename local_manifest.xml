@@ -18,10 +18,10 @@
   
   <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="kdrag0n" revision="master" />
   
-      <!-- Replacements -->
+</manifest>
 
-  <remove-project name="android_bionic" />  
+
   
-  <project path="bionic" name="bionic" remote="ImPrashantt" revision="crdroid" />   
+
   
-</manifest>  
+
