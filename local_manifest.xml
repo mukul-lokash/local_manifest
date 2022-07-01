@@ -14,7 +14,7 @@
   
   <project path="vendor/xiaomi/lavender" name="android_vendor_xiaomi_lavender" remote="ImPrashantt" revision="12.1" />
   
-  <project path="kernel/xiaomi/lavender" name="android_kernel_xiaomi_lavender-LTO" remote="nexus" revision="a12" />
+  <project path="kernel/xiaomi/lavender" name="android_kernel_xiaomi_lavender-LTO" remote="nexus" revision="qti" />
   
   <project path="vendor/gapps" name="android_vendor_gapps" remote="cr" revision="12.1" />  
   
