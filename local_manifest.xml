@@ -5,13 +5,18 @@
           fetch="https://github.com/Prashant-1695" />
   
   <remote name="nexus"
-          fetch="https://github.com/projects-nexus" />                 
+          fetch="https://github.com/projects-nexus" />  
+  
+  <remote name="cr"
+          fetch="https://gitlab.com/crdroidandroid" />  
   
   <project path="device/xiaomi/lavender" name="android_device_xiaomi_lavender" remote="ImPrashantt" revision="12.1" /> 
   
   <project path="vendor/xiaomi/lavender" name="android_vendor_xiaomi_lavender" remote="ImPrashantt" revision="12.1" />
   
   <project path="kernel/xiaomi/lavender" name="android_kernel_xiaomi_lavender-LTO" remote="nexus" revision="a12" />
+  
+  <project path="vendor/gapps" name="android_vendor_gapps" remote="cr" revision="12.1" />  
   
 </manifest>
 
