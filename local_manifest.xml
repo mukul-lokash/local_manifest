@@ -4,14 +4,14 @@
   <remote name="ImPrashantt"
           fetch="https://github.com/Prashant-1695" />
   
-  <remote name="stormbreaker-project"
-          fetch="https://github.com/stormbreaker-project" />                 
+  <remote name="nexus"
+          fetch="https://github.com/projects-nexus" />                 
   
   <project path="device/xiaomi/lavender" name="android_device_xiaomi_lavender" remote="ImPrashantt" revision="12.1" /> 
   
   <project path="vendor/xiaomi/lavender" name="android_vendor_xiaomi_lavender" remote="ImPrashantt" revision="12.1" />
   
-  <project path="kernel/xiaomi/lavender" name="kernel_xiaomi_lavender" remote="stormbreaker-project" revision="qti-oldcam-eas" />
+  <project path="kernel/xiaomi/lavender" name="android_kernel_xiaomi_lavender-LTO" remote="nexus" revision="a12" />
   
 </manifest>
 
