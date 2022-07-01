@@ -18,6 +18,12 @@
   
   <project path="vendor/gapps" name="android_vendor_gapps" remote="cr" revision="12.1" />  
   
+  <!-- Replacemnet -->
+  
+  <remove-project name="android_vendor_crdroid" />
+  
+  <project path="vendor/crdroid" name="android_vendor_crdroid" remote="ImPrashantt" revision="12.1" />  
+  
 </manifest>
 
 
