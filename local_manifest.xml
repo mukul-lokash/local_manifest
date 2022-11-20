@@ -13,6 +13,4 @@
   
   <project path="kernel/xiaomi/lavender" name="nexus_kernel_xiaomi_lavender" remote="nexus" revision="qti" />
   
-  <project path="prebuilts/clang/host/linux-x86/clang-r416183b1" name="platform_prebuilts_clang_host_linux-x86_clang-r416183b1" remote="Prash" revision="typhoon" clone-depth="1" />
-
 </manifest>
