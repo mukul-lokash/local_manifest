@@ -1,14 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<manifest>
+<manifest> 
+      
+      <remote name="Prash"
+          fetch="https://github.com/Prashant-1695" />  
+  
+      <remote name="nexus"
+          fetch="https://github.com/projects-nexus" />  
+      
+      <remote name="ArrowOS"
+          fetch="https://github.com/ArrowOS" />            
+      
+  <project path="device/xiaomi/lavender" name="device_xiaomi_lavender" remote="Prash" revision="lineage" />
+      
+  <project path="vendor/xiaomi/lavender" name="android_vendor_xiaomi_lavender" remote="Prash" revision="13-4.4" />
 
-  <remote name="los"
-          fetch="https://github.com/LineageOS" />
+  <project path="kernel/xiaomi/lavender" name="nexus_kernel_xiaomi_lavender" remote="nexus" revision="los" />
+      
+    <!-- Replacements -->
+   
+  <remove-project name="hardware_qcom_display" />
+  <project path="hardware/qcom-caf/msm8998/display" name="android_hardware_qcom_display" remote="ArrowOS" revision="arrow-13.1-caf-msm8998" />
+      
+  <remove-project name="hardware_qcom_audio" />
+  <project path="hardware/qcom-caf/msm8998/audio" name="android_hardware_qcom_audio" remote="ArrowOS" revision="arrow-13.1-caf-msm8998" />
+
+  <remove-project name="hardware_qcom_media" />
+  <project path="hardware/qcom-caf/msm8998/media" name="android_hardware_qcom_media" remote="ArrowOS" revision="arrow-13.1-caf-msm8998" />    
   
-    <remove-project name="android_external_chromium-webview_patches"/>
-    <project path="external/chromium-webview/patches" name="android_external_chromium-webview_patches" revision="main" remote="los" >
-    <linkfile src="Android.mk" dest="external/chromium-webview/Android.mk" />
-    <linkfile src="CleanSpec.mk" dest="external/chromium-webview/CleanSpec.mk" />
-    <linkfile src="README" dest="external/chromium-webview/README" />
-    </project>
-  
+  <remove-project name="LineageOS/android_frameworks_base" />
+  <project path="frameworks/base" name="android_frameworks_base-1" remote="Prash" revision="los" />
+      
 </manifest>
