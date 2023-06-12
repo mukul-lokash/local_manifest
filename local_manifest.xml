@@ -10,7 +10,7 @@
       <remote name="ArrowOS"
           fetch="https://github.com/ArrowOS" />            
       
-  <project path="device/xiaomi/lavender" name="device_xiaomi_lavender" remote="Prash" revision="awaken" />
+  <project path="device/xiaomi/lavender" name="device_xiaomi_lavender" remote="Prash" revision="lineage" />
       
   <project path="vendor/xiaomi/lavender" name="android_vendor_xiaomi_lavender" remote="Prash" revision="13-4.4" />
 
