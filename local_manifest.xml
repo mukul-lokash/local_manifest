@@ -10,11 +10,11 @@
       <remote name="ArrowOS"
           fetch="https://github.com/ArrowOS" />            
       
-  <project path="device/xiaomi/lavender" name="device_xiaomi_lavender" remote="Prash" revision="lineage" />
+  <project path="device/xiaomi/lavender" name="device_xiaomi_lavender" remote="Prash" revision="derp" />
       
   <project path="vendor/xiaomi/lavender" name="android_vendor_xiaomi_lavender" remote="Prash" revision="13-4.4" />
 
-  <project path="kernel/xiaomi/lavender" name="nexus_kernel_xiaomi_lavender" remote="nexus" revision="los" />
+  <project path="kernel/xiaomi/lavender" name="nexus_kernel_xiaomi_lavender" remote="nexus" revision="qti-old" />
       
     <!-- Replacements -->
    
