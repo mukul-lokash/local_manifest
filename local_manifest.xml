@@ -4,9 +4,9 @@
       <remote name="mukul"
           fetch="https://github.com/wolvfyxmoon-ornery" />
 
-  <project path="device/samsung/m52xq" name="android_device_samsung_m52xq" remote="mukul" revision="test" />
+  <project path="device/samsung/m52xq" name="android_device_samsung_m52xq" remote="mukul" revision="lineage-20" />
 
- <project path="device/samsung/sm7325-common" name="android_device_samsung_sm7325-common" remote="mukul" revision="test" />
+ <project path="device/samsung/sm7325-common" name="android_device_samsung_sm7325-common" remote="mukul" revision="lineage-20" />
 
   <project path="vendor/samsung/m52xq" name="android_vendor_samsung_m52xq" remote="mukul" revision="lineage-20" />
 
