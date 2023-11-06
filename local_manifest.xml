@@ -2,7 +2,7 @@
 <manifest>
 
       <remote name="mukul"
-          fetch="https://github.com/wolvfyxmoon-ornery" />
+          fetch="https://github.com/MxkulSharma" />
 
   <project path="device/samsung/m52xq" name="android_device_samsung_m52xq" remote="mukul" revision="lineage-20" />
 
